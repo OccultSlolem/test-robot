@@ -9,18 +9,26 @@ repositories { jcenter() }
 sourceSets {
     test {
         java {
-            srcDir 'frc.team3256.lib'
+            srcDir 'frc.team1234.lib'
         }
     }
 }
+
+/*allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+*/
+
 
 wpi{
     ctreVersion = "5.3.1.0"
     wpilibVersion = "2018.3.3"
 }
 
-def TEAM = 3256
-def ROBOT_CLASS = "frc.team3256.robot.Robot"
+def TEAM = 1234
+def ROBOT_CLASS = "frc.team1234.robot.Robot"
 
 deploy {
     targets {
@@ -44,6 +52,7 @@ dependencies {
     compile 'junit:junit:4.12'
     compile wpilib()
     compile ctre()
+    //compile 'com.github.AlbinEriksson:Java-Steam-Controller:1.1.0'
 }
 
 jar {
