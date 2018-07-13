@@ -2,118 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="616329ef-885a-4e60-843b-66562efd92c6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/automodes/DoNothingAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/MoveElevator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/TankDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/AutoMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/DriveType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/DrivePower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/Kinematics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/Loop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/Looper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/control/PIDController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/control/TeleopDriveController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/hardware/ADXRS453_Calibrator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/hardware/ADXRS453_Gyro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/hardware/SharpIR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/hardware/TalonUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/logging/TelemetryLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/math/RigidTransform.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/math/Rotation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/math/Translation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/math/Twist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/path/Arc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/path/Line.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/path/Path.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/path/PathGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/path/PurePursuitTracker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/path/Segment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/trajectory/DriveArcController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/trajectory/DriveStraightController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/trajectory/Trajectory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/trajectory/TrajectoryCurveGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/lib/trajectory/TrajectoryGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/Constants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/PoseEstimator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/Robot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/AutoModeBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/AutoModeChooser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/AutoModeEndedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/AutoModeExecuter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/Action.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/AutoHomingAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/CloseCarriageAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/DeployIntakeAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/ElevatorIntakePositionAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/FollowArcTrajectoryAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/FollowTrajectoryAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/IntakeAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/ParallelAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/PurePursuitAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/RaiseElevatorHighScaleAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/RaiseElevatorLowScaleAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/RaiseElevatorSwitchAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/RaiseIntakeAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/RunOnceAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/ScoreBackwardAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/ScoreForwardAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/SeriesAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/StopScoreAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/TurnInPlaceAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/actions/WaitAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Center/CenterLeftSwitchAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Center/CenterRightSwitchAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Final/CenterSwitchAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Final/CrossBaselineBackwardAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Final/CrossBaselineForwardAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Final/DoNothingAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Final/LeftScaleAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Final/LeftSwitchAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Final/RightAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Left/LeftRobotLeftScaleLeftSwitchThreeCubeAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Left/LeftRobotLeftScaleRightSwitchThreeCubeAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Left/LeftRobotRightScaleLeftSwitchThreeCubeAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Left/LeftRobotRightScaleRightSwitchThreeCubeAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Right/RightRobotLeftScaleLeftSwitchThreeCubeAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Right/RightRobotLeftScaleRightSwitchThreeCubeAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Right/RightRobotRightScaleLeftSwitchThreeCubeAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Right/RightRobotRightScaleRightSwitchThreeCubeAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Right/RightRobotRightSwitchAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Test/ElevatorTestAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Test/TestArcTrajectoryAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Test/TestAutoHoming.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Test/TestBackwardsTurn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Test/TestElevatorAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Test/TestParallelAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Test/TestPurePursuitAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Test/TestTrajectoryAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Test/TestTurnInPlaceAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/auto/modes/Test/TestWebappAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/gamedata/GameDataAccessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/operation/ControlsInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/operation/DualLogitechConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/operation/LogitechButtonBoardConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/operation/TeleopUpdater.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/subsystems/Carriage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/subsystems/DriveTrain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/subsystems/Elevator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/subsystems/Intake.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/subsystems/SubsystemBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/subsystems/SubsystemManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/team3256/robot/subsystems/Superstructure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frc/team3256/lib/control/TeleopDriveControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frc/team3256/lib/math/RigidTransformTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frc/team3256/lib/math/RotationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frc/team3256/lib/math/TranslationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frc/team3256/lib/math/TwistTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frc/team3256/lib/path/ArcTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frc/team3256/lib/path/LineTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frc/team3256/lib/path/PathGeneratorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frc/team3256/lib/path/PathTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frc/team3256/lib/path/PurePursuitTrackerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frc/team3256/lib/trajectory/TrajectoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -825,6 +715,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -906,8 +798,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1030,6 +920,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297491" />
@@ -1043,10 +934,10 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3297491" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5044843" visible="true" weight="0.2672035" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.50224215" visible="true" weight="0.2672035" />
       <window_info active="true" anchor="bottom" id="Build" order="8" visible="true" weight="0.31595093" />
       <window_info anchor="right" id="Gradle" order="6" />
-      <window_info id="Structure" order="1" sideWeight="0.4955157" side_tool="true" visible="true" weight="0.2672035" />
+      <window_info id="Structure" order="1" sideWeight="0.49775785" side_tool="true" visible="true" weight="0.2672035" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -1054,11 +945,11 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3297491" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
