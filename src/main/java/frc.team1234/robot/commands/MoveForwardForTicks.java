@@ -9,9 +9,9 @@ public class MoveForwardForTicks extends Command {
     int rTicks; // Right encoder ticks travelled
     int ticksDistanceL; // Amount of ticks to travel on left drivetrain
     int ticksDistanceR; // Amount of ticks to travel on right
-    boolean done = false;
+    private boolean done = false;
 
-    public void setTicks(int ticksDistanceL, int ticksDistanceR) {
+    private void setTicks(int ticksDistanceL, int ticksDistanceR) {
         this.ticksDistanceL = ticksDistanceL;
         this.ticksDistanceR = ticksDistanceR;
     }
@@ -41,7 +41,7 @@ public class MoveForwardForTicks extends Command {
 
     @Override
     protected boolean isFinished() {
-        if(done == true) {
+        if(done) {
             done = false;
             return true;
         }
