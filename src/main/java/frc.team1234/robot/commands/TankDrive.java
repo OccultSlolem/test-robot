@@ -2,8 +2,6 @@ package frc.team1234.robot.commands;
 
 import edu.wpi.first.wpilibj.command.Command;
 import frc.team1234.robot.Robot;
-import frc.team1234.robot.subsystems.DriveTrain;
-import frc.team1234.robot.subsystems.OI;
 
 //Controls the robot should we decide to use tank drive
 
