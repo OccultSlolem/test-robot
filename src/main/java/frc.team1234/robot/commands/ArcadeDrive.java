@@ -13,8 +13,8 @@ public class ArcadeDrive extends Command {
     }
 
     public void execute() {
-        double throttle = Robot.instance.oi.getDriverLeftY();
-        double turn = Robot.instance.oi.getDriverRightX();
+        double throttle = 10*(Robot.instance.oi.getDriverLeftY()-.5);
+        double turn = 10*(Robot.instance.oi.getDriverRightX()-.5);
 
         Robot.instance.driveTrain.setLeftMotorSpeed(throttle+turn);
         Robot.instance.driveTrain.setRightMotorSpeed(throttle-turn);

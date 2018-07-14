@@ -47,7 +47,7 @@ public class Robot extends IterativeRobot {
 
         //Auto Mode selector - Choose which auto to execute
         autoModeSelector.addDefault("Go Forward", new DriveForwardAuto());
-        //autoModeSelector.addObject("Do Nothing", new DoNothingAuto()); TODO: Fix this so it works with the CommandGroups
+        autoModeSelector.addObject("Do Nothing", new DoNothingAuto());
 
         driveTrain.initGyro();
         driveTrain.resetEncoders();

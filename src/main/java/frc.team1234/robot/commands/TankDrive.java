@@ -16,8 +16,8 @@ public class TankDrive extends Command {
     }
 
     public void execute() {
-        double leftY = Robot.instance.oi.getDriverLeftY();
-        double rightY = Robot.instance.oi.getDriverRightY();
+        double leftY = 10*(Robot.instance.oi.getDriverLeftY()-.5);
+        double rightY = 10*(Robot.instance.oi.getDriverRightY()-.5);
         Robot.instance.driveTrain.setLeftMotorSpeed(leftY);
         Robot.instance.driveTrain.setRightMotorSpeed(rightY);
     }
