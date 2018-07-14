@@ -5,6 +5,8 @@ import frc.team1234.robot.Robot;
 import frc.team1234.robot.subsystems.DriveTrain;
 import frc.team1234.robot.subsystems.OI;
 
+//Controls the robot should we decide to use tank drive
+
 public class TankDrive extends Command {
     //public TankDrive() {
     ////requires(Robot.driveTrain);

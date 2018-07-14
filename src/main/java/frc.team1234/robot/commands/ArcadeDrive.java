@@ -3,6 +3,8 @@ package frc.team1234.robot.commands;
 import edu.wpi.first.wpilibj.command.Command;
 import frc.team1234.robot.Robot;
 
+//Sets up the controller for if we decide to use arcade drive.
+
 public class ArcadeDrive extends Command {
     public ArcadeDrive() {
         requires(Robot.instance.driveTrain);

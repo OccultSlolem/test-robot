@@ -10,23 +10,25 @@ import frc.team1234.robot.commands.MoveElevator;
 import frc.team1234.robot.commands.TankDrive;
 import frc.team1234.robot.subsystems.DriveTrain;
 import frc.team1234.robot.subsystems.DriveType;
-import frc.team1234.robot.subsystems.AutoMode;
 import frc.team1234.robot.subsystems.Elevator;
 import frc.team1234.robot.subsystems.OI;
 
-//The first stop for the robot
+//The first stop for the robot code. Is executed by the roboRIO immediately on startup, and various at points
+//including on robot startup, and as well as at the beginning of, and during, autonomous, teleop, and disabled modes
 
 public class Robot extends IterativeRobot {
-    //private Command driveforwardauto;
-    public DriveTrain driveTrain;
-    public Elevator elevator;
-    public OI oi;
-    public TankDrive tankDrive;
-    public ArcadeDrive arcadeDrive;
-    public MoveElevator moveElevator;
-    public DoNothingAuto doNothingAuto;
-    public DriveForwardAuto driveForwardAuto;
 
+    //Initialize Subsystems
+    public DriveTrain driveTrain = new DriveTrain();
+    public Elevator elevator = new Elevator();
+    public OI oi = new OI();
+
+    //Initialize Commands and Automodes
+    public TankDrive tankDrive = new TankDrive();
+    public ArcadeDrive arcadeDrive = new ArcadeDrive();
+    public MoveElevator moveElevator = new MoveElevator();
+
+    //Initialize robot instance
     public static final Robot instance = new Robot();
 
     //Drivetrain selector
@@ -37,10 +39,6 @@ public class Robot extends IterativeRobot {
 
 
     public void robotInit() {
-        driveTrain = new DriveTrain();
-        elevator = new Elevator();
-        oi = new OI();
-
         //Drive Type selector - Use a Sendable Chooser to choose either arcade or tank drive
         driveTypeSelector.addDefault("Arcade", DriveType.ARCADE);
         driveTypeSelector.addObject("Tank", DriveType.TANK);

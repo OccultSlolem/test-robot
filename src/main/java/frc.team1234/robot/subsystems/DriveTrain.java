@@ -5,9 +5,10 @@ import edu.wpi.first.wpilibj.VictorSP;
 import edu.wpi.first.wpilibj.command.Subsystem;
 import frc.team1234.robot.RobotMap;
 
+//Initializes various functions for the drivetrain. Includes gyro, encoder, and motor controller commands
 
 public class DriveTrain extends Subsystem {
-    VictorSP leftFront = new VictorSP(RobotMap.leftFrontMotor);
+    VictorSP leftFront = new VictorSP(RobotMap.leftFrontMotor); //NOTE: KOP actually includes Sparks, not Victor SPs.
     VictorSP leftRear = new VictorSP(RobotMap.leftRearMotor);
     VictorSP rightFront = new VictorSP(RobotMap.rightFrontMotor);
     VictorSP rightRear = new VictorSP(RobotMap.rightRearMotor);

@@ -4,6 +4,8 @@ import edu.wpi.first.wpilibj.Encoder;
 import edu.wpi.first.wpilibj.VictorSP;
 import frc.team1234.robot.RobotMap;
 
+//Initializes various commands for the elevator, including movement and encoder commands
+
 public class Elevator {
     VictorSP elevator = new VictorSP(RobotMap.elevatorMotor);
     Encoder elevatorEncoder = new Encoder(RobotMap.elevatorEncoderA,RobotMap.elevatorEncoderB);

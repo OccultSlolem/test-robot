@@ -1,5 +1,7 @@
 package frc.team1234.robot;
 
+//Defines various constants for where things like motor controllers and encoders will be plugged in
+
 public class RobotMap {
 
     //PWM Motors
