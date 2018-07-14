@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="616329ef-885a-4e60-843b-66562efd92c6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/GetDriveEncoders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/RobotMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/RobotMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/automodes/DoNothingAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/automodes/DoNothingAuto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/automodes/DriveForwardAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/automodes/DriveForwardAuto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/ArcadeDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/ArcadeDrive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/MoveElevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/MoveElevator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/MoveForwardForTicks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/MoveForwardForTicks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/PIDDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/PIDDrive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/ResetEncoders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/ResetEncoders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/SetAllDriveMotorSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/SetAllDriveMotorSpeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/SetLeftMotorSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/SetLeftMotorSpeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/SetRightMotorSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/SetRightMotorSpeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/TankDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/TankDrive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/DriveTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/DriveTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/Elevator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/OI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/OI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -41,7 +27,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+    <leaf>
       <file leaf-file-name="PIDDrive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/PIDDrive.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,23 +43,8 @@
       <file leaf-file-name="MoveForwardForTicks.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/MoveForwardForTicks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-306">
-              <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
-              <folding>
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#1041#1042#0" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DriveForwardAuto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/automodes/DriveForwardAuto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            <state relative-caret-position="255">
+              <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,12 +55,48 @@
       <file leaf-file-name="ResetEncoders.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/ResetEncoders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="62" />
+            <state relative-caret-position="136">
+              <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetDriveEncoders.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/GetDriveEncoders.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveElevator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/MoveElevator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriveForwardAuto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/automodes/DriveForwardAuto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,8 +105,8 @@
       <file leaf-file-name="Elevator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/Elevator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="204">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,7 +117,7 @@
       <file leaf-file-name="DriveTrain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/DriveTrain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="255">
               <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -123,11 +130,9 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/SetLeftMotorSpeed.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,7 +141,7 @@
       <file leaf-file-name="SetAllDriveMotorSpeed.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/SetAllDriveMotorSpeed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="459">
               <caret line="31" column="26" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -165,7 +170,7 @@
       <find>wantedstatechanged</find>
       <find>wantedstatechange</find>
       <find>wantedstate</find>
-      <find />
+      <find>private C</find>
       <find>han</find>
       <find>karm</find>
       <find>handlehome</find>
@@ -671,8 +676,10 @@
         <option value="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/setLeftMotorSpeed.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/SetRightMotorSpeed.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/ResetEncoders.java" />
-        <option value="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/MoveForwardForTicks.java" />
         <option value="$PROJECT_DIR$/src/main/java/frc.team1234/robot/automodes/DriveForwardAuto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/GetEncoders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/GetDriveEncoders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/MoveForwardForTicks.java" />
       </list>
     </option>
   </component>
@@ -696,6 +703,51 @@
             <path>
               <item name="test-robot" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-robot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-robot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-robot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-robot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-robot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="frc.team1234" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-robot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="frc.team1234" type="462c0819:PsiDirectoryNode" />
+              <item name="robot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-robot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="frc.team1234" type="462c0819:PsiDirectoryNode" />
+              <item name="robot" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test-robot" type="b2602c69:ProjectViewProjectNode" />
@@ -837,16 +889,16 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.3297546" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.34509203" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3297491" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297546" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3297491" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5011442" visible="true" weight="0.2672035" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969325" visible="true" weight="0.2672035" />
       <window_info anchor="right" id="Gradle" order="6" />
-      <window_info id="Structure" order="1" sideWeight="0.49885583" side_tool="true" visible="true" weight="0.2672035" />
+      <window_info id="Structure" order="1" sideWeight="0.5030675" side_tool="true" weight="0.2672035" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -861,6 +913,37 @@
       <window_info anchor="bottom" id="Build" order="8" weight="0.31595093" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297546" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969325" visible="true" weight="0.2672035" />
+      <window_info id="Structure" order="1" sideWeight="0.5030675" side_tool="true" weight="0.2672035" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297491" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3297491" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.34509203" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3297491" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.31595093" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32822084" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -871,16 +954,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/DriveTrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team3256/robot/subsystems/Superstructure.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team3256/robot/Constants.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/frc/team3256/robot/gamedata/GameDataAccessor.java" />
@@ -910,7 +983,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/Manipulator.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpilibj/wpilibj-java/2018.3.3/748e3fecdf9bc0ced6abb1bf9ef65b419441580/wpilibj-java-2018.3.3-sources.jar!/edu/wpi/first/wpilibj/smartdashboard/SendableChooser.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpilibj/wpilibj-java/2018.3.3/748e3fecdf9bc0ced6abb1bf9ef65b419441580/wpilibj-java-2018.3.3-sources.jar!/edu/wpi/first/wpilibj/command/Command.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpilibj/wpilibj-java/2018.3.3/748e3fecdf9bc0ced6abb1bf9ef65b419441580/wpilibj-java-2018.3.3-sources.jar!/edu/wpi/first/wpilibj/command/CommandGroup.java" />
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -978,16 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/MoveElevator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/ArcadeDrive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1034,38 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/SetAllDriveMotorSpeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/DriveTrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/SetLeftMotorSpeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-27" />
@@ -1075,6 +1105,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="146" column="10" selection-start-line="146" selection-start-column="10" selection-end-line="146" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/SetAllDriveMotorSpeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/SetLeftMotorSpeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/DriveTrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/Elevator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpilibj/wpilibj-java/2018.3.3/748e3fecdf9bc0ced6abb1bf9ef65b419441580/wpilibj-java-2018.3.3-sources.jar!/edu/wpi/first/wpilibj/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-409">
+          <caret line="257" column="17" selection-start-line="257" selection-start-column="17" selection-end-line="257" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/ResetEncoders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/MoveElevator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/GetDriveEncoders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1088,32 +1197,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/ResetEncoders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/subsystems/Elevator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/automodes/DriveForwardAuto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1122,13 +1209,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/frc.team1234/robot/commands/MoveForwardForTicks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+        <state relative-caret-position="255">
+          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
